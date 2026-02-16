@@ -4,7 +4,7 @@
 ### 📝 Project Overview
 This project is a sophisticated web-based evolution of a classic computer science challenge. Originally specified as a procedural C-language terminal application, this version reimagines the Mega-Sena (Brazil's largest lottery) simulator as a distributed web system. It allows users to configure bets, generate "Surpresinhas" (random bets), manage "Teimosinhas" (multi-contest repetitions), and calculate costs in real-time, all while integrating with live lottery data.
 
-###🚀 Key Features
+### 🚀 Key Features
 Interactive Digital Wheel: A responsive UI for selecting numbers (01-60) with real-time validation.
 
 Complex Betting Logic: Support for 6 to 15 numbers per bet, following official prize/cost scales.
