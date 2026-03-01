@@ -1,9 +1,9 @@
-import type { HeaderPropsWithChildren } from "../types/interfaces";
+import type { BasicPropsWithChildren } from "../types/interfaces";
 
-const MainContainer: React.FC<HeaderPropsWithChildren> = ({ title, cssClasses, children }) => {
+const MainContainer: React.FC<BasicPropsWithChildren> = ({ title, cssClasses, children }) => {
     return (
         <main className={cssClasses || undefined}>
-            <h2 className="text-2xl text-center uppercase font-bold italic mb-4 text-green-800">{title}</h2>
+            <h2 className="text-3xl text-center uppercase font-bold mb-4 text-green-800">{title}</h2>
             {children}
         </main>
     );

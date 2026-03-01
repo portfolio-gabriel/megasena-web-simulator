@@ -1,7 +1,7 @@
-import { type HeaderProps } from "../types/interfaces";
+import { type BasicProps } from "../types/interfaces";
 import megaSenaImg from "../../public/megasena.svg";
 
-const Header: React.FC<HeaderProps> = ({ title, cssClasses: logoClasses }) => {
+const Header: React.FC<BasicProps> = ({ title, cssClasses: logoClasses }) => {
     return (
         <header className="bg-green-800 p-4 w-full mx-auto shadow-lg mb-6 border-b-2 border-green-600">
             <div className="flex items-center pb-1">
