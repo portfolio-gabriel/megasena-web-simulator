@@ -42,7 +42,7 @@ class LotterySlipRequest(BaseModel):
         description="The amount of surprise bets to be generated. Only required if the bet type includes 'Surpresinha'.",
     )
 
-    repetion_bets: Optional[int] = Field(
+    repetition_bets: Optional[int] = Field(
         None,
         ge=min(LotteryFeatures.RANGE_AMOUNT_OF_BET_REPETITIONS),
         le=max(LotteryFeatures.RANGE_AMOUNT_OF_BET_REPETITIONS),

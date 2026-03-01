@@ -4,7 +4,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 
-def main():
+def main() -> None:
     print("Hello from backend!")
 
 
